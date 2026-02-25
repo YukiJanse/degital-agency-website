@@ -6,7 +6,7 @@
     <title>Digital Agency</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
-<bodyclass="bg-light">
+<body class="d-flex flex-column min-vh-100 bg-light">
     <header class="bg-dark">
         <section class="container d-flex flex-row gap-5 bg-dark text-white align-items-center p-3">
             <h1 class="visually-hidden">Digital Agency</h1>
@@ -22,7 +22,7 @@
         </section>
     </header>
 
-    <main class="d-flex flex-column gap-5">
+    <main class="container my-5 flex-grow-1">
         <section class="container mt-4">
             <h2>Digital Agency</h2>
             <p>Designing modern, scalable, and user-focused digital experiences. We help businesses build a strong online presence through thoughtful design and reliable technology.</p>
@@ -30,16 +30,40 @@
         <section class="container">
             <h2>Services</h2>
             <p>From web development to UI/UX design, we craft clean, scalable, and effective digital products. Discover what we can do for your business.</p>
-            <a href="./services.html">Our Services</a>
+            <section class="row mb-3 g-3">
+                <article class="card pt-3 col-12 col-md-6 col-lg-4">
+                    <img class="card-img-top" src="https://picsum.photos/300/200" alt="">
+                    <div class="card-body">
+                        <h3 class="card-title">Web Development</h3>
+                        <p class="card-text">We create responsive, fast, and maintainable websites using modern technologies and best practices.</p>
+                    </div>
+                </article>
+                <article class="card pt-3 col-12 col-md-6 col-lg-4">
+                    <img class="card-img-top" src="https://picsum.photos/300/200" alt="">
+                    <div class="card-body">
+                        <h3 class="card-title">UI / UX Design</h3>
+                        <p class="card-text">We design intuitive and user-centered interfaces that enhance usability and improve user experience.</p>
+                    </div>
+                </article>
+                <article class="card pt-3 col-12 col-md-6 col-lg-4">
+                    <img class="card-img-top" src="https://picsum.photos/300/200" alt="">
+                    <div class="card-body">
+                        <h3 class="card-title">Branding & Identity</h3>
+                        <p class="card-text">We help businesses establish a consistent and memorable visual identity across digital platforms.</p>
+                    </div>
+                </article>
+            </section>
+            <a class="btn btn-primary" href="./services.html">Read more</a>
         </section>
-        <section class="container">
+        <section class="container mt-4">
             <h2>Ready to grow your business?</h2>
             <p>Let’s build something great together.</p>
-            <a href="./contact.html">Contact us</a>
+        
+            <a class="btn btn-primary" href="./contact.html">Contact us</a>
         </section>
     </main>
 
-    <footer class="bg-dark text-light py-4 mt-5 fixed-bottom">
+    <footer class="bg-dark text-light py-4 mt-5">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 text-center text-md-start">
